@@ -1,0 +1,47 @@
+Package: PIONE
+Type: Package
+Title: Priority Index-Based Integration of Multi-Omics Summary Data for Therapeutic Candidate Identification
+Version: 1.0.0
+Date: 2022-6-27
+Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
+Maintainer: Hai Fang <fh12355@rjh.com.cn>
+Depends: R (>= 4.2.0), igraph, ggplot2
+Imports: BiocGenerics, dplyr, forcats, GenomicRanges, ggnetwork, ggrepel, IRanges, magrittr, Matrix, methods, osfr, purrr, readr, stats, stringr, tibble, tidyr, XML, pbapply
+Suggests: coin, foreach, ggraph, ggridges, grid, gridExtra, MatrixEQTL, RColorBrewer, ROCR, ggupset, rtracklayer, Gviz, MASS, dnet, graphics, grDevices, S4Vectors, utils, ggbio, GenomeInfoDb, doParallel, fgsea, scales, supraHex, data.tree, jsonlite
+Description: In this package, a series of functions are designed to enable the integration of genomic summary data arising from multi-omics profilings. The profilings include but are not limited to genomic mutations, transcriptome, proteome and phosphoproteome. The package is aimed to identify therapeutic candidates, including both therapeutic targets and repurposed drugs.
+Collate:
+    'ClassMethod-PIONE.r'
+    'oDefineNet.r'
+    'oTB2IG.r'
+    'oIG2TB.r'
+    'oRDS.r'
+    'oNetInduce.r'
+    'oPierAnno.r'
+    'oPierGenes.r'
+    'oPier.r'
+    'oRWR.r'
+    'oCheckParallel.r'
+    'oSymbol2GeneID.r'
+    'oPierMatrix.r'
+    'oSparseMatrix.r'
+    'oPierManhattan.r'
+    'oSEAadv.r'
+    'oSEA.r'
+    'oSEAextract.r'
+    'oSEAballoon.r'
+    'oColormap.r'
+    'oCombineNet.r'
+    'oPierSubnet.r'
+    'oSubneterGenes.r'
+    'oVisEvidenceAdv.r'
+    'oLayout.r'
+    'oVisEvidence.r'
+    'oGGnetwork.r'
+    'oPieplot.r'
+    'oSEAforest.r'
+    'oRepurpose.r'
+    'oHeatmap.r'
+    'oAttack.r'
+    'oUpsetAdv.r'
+License: GPL-2
+biocViews: Software, SystemsBiology, FunctionalGenomics
