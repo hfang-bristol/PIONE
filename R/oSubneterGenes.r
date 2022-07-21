@@ -24,7 +24,6 @@
 #' @seealso \code{\link{oSubneterGenes}}
 #' @include oSubneterGenes.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #'
 #' # a) provide the input nodes/genes with the significance info

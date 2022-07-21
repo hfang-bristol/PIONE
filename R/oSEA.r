@@ -36,10 +36,9 @@
 #' \item{"Notes": the order of the number of significant terms is: "none" > "lea" > "elim" > "pc".}
 #' }
 #' @export
-#' @seealso \code{\link{oDAGanno}}
+#' @seealso \code{\link{oSEA}}
 #' @include oSEA.r
 #' @examples
-#' placeholder <- "~/Sites/SVN/github/bigdata_dev"
 #' \dontrun{
 #' BioGRID_HCoV <- oRDS("BioGRID_HCoV", placeholder=placeholder)
 #' data <- BioGRID_HCoV %>% filter(from_tax==2697049) %>% count(to) %>% pull(to)

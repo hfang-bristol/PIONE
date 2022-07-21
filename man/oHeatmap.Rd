@@ -115,7 +115,6 @@ a ggplot2 object
 none
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 data(mtcars)
 gp <- oHeatmap(mtcars, reorder="none", colormap='jet.top', x.rotate=45,

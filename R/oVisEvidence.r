@@ -28,7 +28,6 @@
 #' @seealso \code{\link{oColormap}}
 #' @include oVisEvidence.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' ## TNFRSF1A
 #' oVisEvidence(xTarget, nodes="TNFRSF1A", neighbor.order=1, neighbor.seed=TRUE, neighbor.top=NULL, vertex.label.color="black", vertex.label.cex=0.7, vertex.label.dist=0.6, vertex.label.font=1, vertex.label.family="Arial", legend.position="bottomleft", legend.horiz=TRUE, newpage=FALSE)

@@ -135,7 +135,6 @@ scores for prioritised genes in a gene network. It returns an object of
 class "ggplot".
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 ## TNFRSF1A
 oVisEvidenceAdv(xTarget, nodes="TNFRSF1A", neighbor.order=1,
@@ -143,6 +142,5 @@ neighbor.seed=TRUE, neighbor.top=NULL)
 }
 }
 \seealso{
-\code{\link{oVisEvidence}}, \code{\link{oGGnetwork}},
-\code{\link{oPieplot}}
+\code{\link{oVisEvidence}}
 }

@@ -15,13 +15,12 @@
 #' @seealso \code{\link{oSymbol2GeneID}}
 #' @include oSymbol2GeneID.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' 
 #' # a) provide the input Genes of interest (eg 100 randomly chosen human genes)
 #' ## load human genes
-#' org.Hs.eg <- xRDataLoader(RData='org.Hs.eg')
-#' Symbol <- as.character(sample(org.Hs.eg$gene_info$Symbol, 100))
+#' org.Hs.eg <- oRDS('org.Hs.eg', placeholder='http://www.comptransmed.pro/bigdata_ctm')
+#' Symbol <- sample(org.Hs.eg$info$Symbol, 100)
 #' Symbol
 #' 
 #' # b) convert into GeneID

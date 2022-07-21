@@ -167,7 +167,6 @@ ggnetwork.
 none
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 ###########################
 # load REACTOME

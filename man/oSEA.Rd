@@ -170,7 +170,6 @@ the maximum of both p-values in these two calculations.}
 }
 }
 \examples{
-placeholder <- "~/Sites/SVN/github/bigdata_dev"
 \dontrun{
 BioGRID_HCoV <- oRDS("BioGRID_HCoV", placeholder=placeholder)
 data <- BioGRID_HCoV \%>\% filter(from_tax==2697049) \%>\% count(to)
@@ -251,5 +250,5 @@ color=guide_colorbar('Z-score','top',direction="horizontal",barheight=0.5))
 }
 }
 \seealso{
-\code{\link{oDAGanno}}
+\code{\link{oSEA}}
 }

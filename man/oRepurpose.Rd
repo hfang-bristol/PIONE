@@ -73,7 +73,6 @@ none
 }
 \examples{
 \dontrun{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata/"
 
 # a) provide the input Genes of interest (eg 1000 randomly chosen human genes)
 ## load human genes

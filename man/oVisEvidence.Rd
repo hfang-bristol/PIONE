@@ -104,7 +104,6 @@ a subgraph, an object of class "igraph".
 genes in a gene network. It returns an object of class "igraph".
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 ## TNFRSF1A
 oVisEvidence(xTarget, nodes="TNFRSF1A", neighbor.order=1,

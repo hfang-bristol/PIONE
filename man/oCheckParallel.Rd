@@ -27,7 +27,6 @@ system-specific. Also, it will depend on whether these two packages
 "foreach" and "doParallel" have been installed.
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 oCheckParallel()
 }

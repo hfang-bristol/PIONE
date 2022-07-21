@@ -27,7 +27,6 @@
 #' @seealso \code{\link{oPierMatrix}}
 #' @include oPierMatrix.r
 #' @examples
-#' placeholder <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' # get predictor matrix for targets
 #' df_score <- oPierMatrix(ls_pNode)

@@ -40,12 +40,9 @@ igraph objects.
 none
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
-g1 <- oDefineNet(network="KEGG_environmental",
-RData.location=RData.location)
-g2 <- oDefineNet(network="KEGG_organismal",
-RData.location=RData.location)
+g1 <- oDefineNet(network="KEGG_environmental")
+g2 <- oDefineNet(network="KEGG_organismal")
 ls_ig <- list(g1, g2)
 ig <- oCombineNet(ls_ig, combineBy='union', attrBy="intersect",
 verbose=TRUE)

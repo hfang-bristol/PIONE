@@ -11,7 +11,6 @@
 #' @seealso \code{\link{oCheckParallel}}
 #' @include oCheckParallel.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' oCheckParallel()
 #' }

@@ -56,7 +56,6 @@ a ggplot object.
 returns an object of class "ggplot".
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 gp <- oPieplot(df,
 columns=c('dGene','pGene','fGene','nGene','eGene','cGene'),

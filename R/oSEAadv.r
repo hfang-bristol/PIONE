@@ -26,7 +26,6 @@
 #' @seealso \code{\link{oSEA}}
 #' @include oSEAadv.r
 #' @examples
-#' placeholder <- "~/Sites/SVN/github/bigdata_dev"
 #' \dontrun{
 #' sets <- tibble(onto=c('GOMF','GOBP','KEGG','Bucket','PSG')[c(1)]) %>% mutate(set=map(onto,~oRDS(str_c("org.Hs.eg",.x),placeholder=placeholder)))
 #' list_vec <- BioGRID_HCoV %>% nest(data=-from_tax) %>% mutate(gene=map(data,~pull(.x,to))) %>% select(-data) %>% deframe()

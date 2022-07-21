@@ -23,36 +23,24 @@
 #' @seealso \code{\link{oPierSubnet}}
 #' @include oPierSubnet.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
-#' # a) provide the SNPs with the significance info
-#' ## get lead SNPs reported in AS GWAS and their significance info (p-values)
-#' #data.file <- "http://galahad.well.ox.ac.uk/bigdata/AS.txt"
-#' #AS <- read.delim(data.file, header=TRUE, stringsAsFactors=FALSE)
-#' ImmunoBase <- xRDataLoader(RData.customised='ImmunoBase', RData.location=RData.location)
-#' gr <- ImmunoBase$AS$variants
-#' AS <- as.data.frame(GenomicRanges::mcols(gr)[, c('Variant','Pvalue')])
-#'
-#' # b) perform priority analysis
-#' pNode <- xPierSNPs(data=AS, include.eQTL="JKng_mono", include.HiC='Monocytes', network="PCommonsUN_medium", restart=0.7, RData.location=RData.location)
-#' 
-#' # c) perform network analysis
+#' # a) perform network analysis
 #' # find maximum-scoring subnet with the desired node number=50
 #' subnet <- oPierSubnet(pNode, priority.quantile=0.1, subnet.size=50, RData.location=RData.location)
 #'
-#' # d) save subnet results to the files called 'subnet_edges.txt' and 'subnet_nodes.txt'
+#' # b) save subnet results to the files called 'subnet_edges.txt' and 'subnet_nodes.txt'
 #' output <- igraph::get.data.frame(subnet, what="edges")
 #' utils::write.table(output, file="subnet_edges.txt", sep="\t", row.names=FALSE)
 #' output <- igraph::get.data.frame(subnet, what="vertices")
 #' utils::write.table(output, file="subnet_nodes.txt", sep="\t", row.names=FALSE)
 #'
-#' # e) visualise the identified subnet
+#' # c) visualise the identified subnet
 #' ## do visualisation with nodes colored according to the priority
 #' xVisNet(g=subnet, pattern=V(subnet)$priority, vertex.shape="sphere")
 #' ## do visualisation with nodes colored according to pvalue-like signficance
 #' xVisNet(g=subnet, pattern=-log10(as.numeric(V(subnet)$significance)), vertex.shape="sphere", colormap="wyr")
 #' 
-#' # f) visualise the identified subnet as a circos plot
+#' # d) visualise the identified subnet as a circos plot
 #' library(RCircos)
 #' xCircos(g=subnet, entity="Gene", RData.location=RData.location)
 #' }

@@ -138,7 +138,6 @@ of sets and a list of ontologies. It is an advanced version of
 none
 }
 \examples{
-placeholder <- "~/Sites/SVN/github/bigdata_dev"
 \dontrun{
 sets <- tibble(onto=c('GOMF','GOBP','KEGG','Bucket','PSG')[c(1)]) \%>\%
 mutate(set=map(onto,~oRDS(str_c("org.Hs.eg",.x),placeholder=placeholder)))

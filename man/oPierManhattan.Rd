@@ -103,28 +103,8 @@ an object of class "ggplot".
 none
 }
 \examples{
-placeholder <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
-# a) provide the SNPs with the significance info
-## get lead SNPs reported in AS GWAS and their significance info (p-values)
-#data.file <- "http://galahad.well.ox.ac.uk/bigdata/AS.txt"
-#AS <- read.delim(data.file, header=TRUE, stringsAsFactors=FALSE)
-ImmunoBase <- oRDS(RData.customised='ImmunoBase',
-placeholder=placeholder)
-gr <- ImmunoBase$AS$variants
-AS <- as.data.frame(GenomicRanges::mcols(gr)[, c('Variant','Pvalue')])
-
-# b) perform priority analysis
-pNode <- xPierSNPs(data=AS, include.eQTL="JKng_mono",
-include.HiC='Monocytes', network="PCommonsUN_medium", restart=0.7,
-placeholder=placeholder)
-
-# c) manhattan plot
-## default plot
 mp <- oPierManhattan(pNode, placeholder=placeholder)
-#pdf(file="Gene_manhattan.pdf", height=6, width=12, compress=TRUE)
-print(mp)
-#dev.off()
 mp$gr
 ## control visuals
 mp <- oPierManhattan(pNode, color='ggplot2', top=50,

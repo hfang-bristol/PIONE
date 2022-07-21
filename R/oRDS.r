@@ -34,10 +34,9 @@
 #' @seealso \code{\link{oRDS}}
 #' @include oRDS.r
 #' @examples
-#' guid <- 'gskpn'
+#' placeholder <- 'http://www.comptransmed.pro/bigdata_ctm'
 #' \dontrun{
-#' # from OSF
-#' ig.HPPA <- oRDS('ig.HPPA', guid='gskpn')
+#' org.Hs.eg <- oRDS('org.Hs.eg', placeholder=placeholder)
 #' }
 
 oRDS <- function(RDS=NULL, verbose=TRUE, placeholder=NULL, guid=NULL)

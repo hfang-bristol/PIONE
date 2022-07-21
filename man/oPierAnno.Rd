@@ -173,7 +173,6 @@ The input graph will treat as an unweighted graph if there is no
 'weight' edge attribute associated with
 }
 \examples{
-placeholder <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 # a) provide the seed nodes/genes with the weight info
 ## load ImmunoBase

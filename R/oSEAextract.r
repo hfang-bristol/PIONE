@@ -20,7 +20,7 @@
 #'  \item{\code{CIu}: upper bound confidence interval for the odds ratio}
 #'  \item{\code{distance}: set distance to the root}
 #'  \item{\code{namespace}: set namespace}
-#'  \item{\code{overlap}: semi colon separated members for overlaps}
+#'  \item{\code{overlap}: semi-colon separated members for overlaps}
 #' }
 #' @note none
 #' @export

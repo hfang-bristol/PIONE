@@ -43,7 +43,6 @@
 #' @seealso \code{\link{oGGnetwork}}
 #' @include oGGnetwork.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' ###########################
 #' # load REACTOME

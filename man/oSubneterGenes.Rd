@@ -174,7 +174,6 @@ thresholds. This explicit control over the node size may be necessary
 for guiding follow-up experiments.
 }
 \examples{
-RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 \dontrun{
 
 # a) provide the input nodes/genes with the significance info

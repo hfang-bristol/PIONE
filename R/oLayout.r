@@ -12,10 +12,6 @@
 #' @include oLayout.r
 #' @examples
 #' \dontrun{
-#' # Load the library
-#' library(XGR)
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata/"
-#' 
 #' # load REACTOME
 #' # restricted to Immune System ('R-HSA-168256') or Signal Transduction ('R-HSA-162582')
 #' g <- xRDataLoader('ig.REACTOME', RData.location=RData.location)

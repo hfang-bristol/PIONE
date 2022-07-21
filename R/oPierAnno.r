@@ -29,7 +29,6 @@
 #' @seealso \code{\link{oPierMatrix}}, \code{\link{oPierGenes}}
 #' @include oPierAnno.r
 #' @examples
-#' placeholder <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' # a) provide the seed nodes/genes with the weight info
 #' ## load ImmunoBase

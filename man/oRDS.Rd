@@ -31,10 +31,9 @@ To enable 'guid', please also install a package "osfr" via
 \code{BiocManager::install("osfr",dependencies=TRUE)}.
 }
 \examples{
-guid <- 'gskpn'
+placeholder <- 'http://www.comptransmed.pro/bigdata_ctm'
 \dontrun{
-# from OSF
-ig.HPPA <- oRDS('ig.HPPA', guid='gskpn')
+org.Hs.eg <- oRDS('org.Hs.eg', placeholder=placeholder)
 }
 }
 \seealso{

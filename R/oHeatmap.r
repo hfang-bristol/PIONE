@@ -33,7 +33,6 @@
 #' @seealso \code{\link{oHeatmap}}
 #' @include oHeatmap.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' data(mtcars)
 #' gp <- oHeatmap(mtcars, reorder="none", colormap='jet.top', x.rotate=45, shape=19, size=3, x.text.size=8,y.text.size=8, legend.title='mtcars')

@@ -35,10 +35,9 @@
 #' @return
 #' a ggplot object.
 #' @export
-#' @seealso \code{\link{oVisEvidence}}, \code{\link{oGGnetwork}}, \code{\link{oPieplot}}
+#' @seealso \code{\link{oVisEvidence}}
 #' @include oVisEvidenceAdv.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' ## TNFRSF1A
 #' oVisEvidenceAdv(xTarget, nodes="TNFRSF1A", neighbor.order=1, neighbor.seed=TRUE, neighbor.top=NULL)

@@ -139,7 +139,6 @@ The input graph will treat as an unweighted graph if there is no
 'weight' edge attribute associated with
 }
 \examples{
-placeholder <- "~/Sites/SVN/github/bigdata_dev"
 \dontrun{
 # STRING (high quality)
 g <- oDefineNet("STRING_high", placeholder=placeholder)

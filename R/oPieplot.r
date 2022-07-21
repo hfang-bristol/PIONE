@@ -17,7 +17,6 @@
 #' @seealso \code{\link{oColormap}}
 #' @include oPieplot.r
 #' @examples
-#' RData.location <- "http://galahad.well.ox.ac.uk/bigdata"
 #' \dontrun{
 #' gp <- oPieplot(df, columns=c('dGene','pGene','fGene','nGene','eGene','cGene'), legend.title='Seeds')
 #' }

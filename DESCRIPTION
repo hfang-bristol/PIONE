@@ -2,7 +2,7 @@ Package: PIONE
 Type: Package
 Title: Priority Index-Based Integration of Multi-Omics Summary Data for Therapeutic Candidate Identification
 Version: 1.0.0
-Date: 2022-6-27
+Date: 2022-7-21
 Authors@R: c(person("Hai", "Fang", email="fh12355@rjh.com.cn", role=c("aut","cre")))
 Maintainer: Hai Fang <fh12355@rjh.com.cn>
 Depends: R (>= 4.2.0), igraph, ggplot2

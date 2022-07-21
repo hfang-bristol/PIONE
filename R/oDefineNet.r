@@ -15,7 +15,6 @@
 #' @seealso \code{\link{oRDS}}, \code{\link{oIG2TB}}, \code{\link{oTB2IG}}
 #' @include oDefineNet.r
 #' @examples
-#' placeholder <- "~/Sites/SVN/github/bigdata_dev"
 #' \dontrun{
 #' # STRING (high quality)
 #' g <- oDefineNet("STRING_high", placeholder=placeholder)
